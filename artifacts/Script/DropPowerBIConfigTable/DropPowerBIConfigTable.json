@@ -1,0 +1,26 @@
+{
+	"id": "3c3bf0e2-57a1-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-31T11:10:37.000Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "BD5EB036-8D5E-41F8-8F01-BCADEB9765C0",
+			"name": "powerbireportmetadata",
+			"contextname": "powerbireportmetadata"
+		}
+	],
+	"apis": [],
+	"name": "DropPowerBIConfigTable",
+	"ver": "23.1.31.1110",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "883420f0-56a1-ed11-994a-0022489f9953",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

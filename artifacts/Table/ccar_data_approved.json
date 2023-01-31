@@ -1,0 +1,218 @@
+{
+	"id": "0255af6b-fb6f-4d4c-9a2c-aeffebdc23fd",
+	"createdAt": "2021-05-03T13:48:11.606Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "be1a499e-81e1-4ade-b324-498020f91449",
+			"fieldName": "Reference",
+			"fieldType": "text"
+		},
+		{
+			"id": "a9838840-5360-482f-e912-d18c4088a7c6",
+			"fieldName": "Title",
+			"fieldType": "text",
+			"description": "Component(s)"
+		},
+		{
+			"id": "e7e8271c-d425-43bd-c956-f3431f4dc061",
+			"fieldName": "Position",
+			"fieldType": "text"
+		},
+		{
+			"id": "5738fe02-9142-4d2a-a442-966124add950",
+			"fieldName": "Category",
+			"fieldType": "text",
+			"description": ""
+		},
+		{
+			"id": "e0f5e38f-7afc-490e-dada-058b8b58065c",
+			"fieldName": "Defect",
+			"fieldType": "text"
+		},
+		{
+			"id": "dce13fa4-f79a-4cf4-eeca-a7f2c28e3089",
+			"fieldName": "PhotographedProd",
+			"fieldType": "text",
+			"description": "Production Number (7 Digits)"
+		},
+		{
+			"id": "8c41f3b6-e2a3-435c-e348-c0bdaf7f661d",
+			"fieldName": "Model",
+			"fieldType": "text"
+		},
+		{
+			"id": "0f9e3331-644a-4671-f048-11602c782f12",
+			"fieldName": "Varient",
+			"fieldType": "text"
+		},
+		{
+			"id": "5a6b6b0f-a17a-4fe7-f8ad-5ae724581de4",
+			"fieldName": "QualityStandardPackRef",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "87f2fd1c-f4ff-4fdc-f8d8-53f4713ebc09",
+			"fieldName": "MPAScore",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "d2b75c8e-e8bd-4a00-e491-6b5ee81780c6",
+			"fieldName": "PointOfDetection",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "fd41de20-d222-4df3-fa38-517277ec5bbc",
+			"fieldName": "ReworkState",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "7f2094e5-f93a-4d00-de43-8643cde9d09e",
+			"fieldName": "CurrentFPV",
+			"fieldType": "decimal",
+			"isNullable": true
+		},
+		{
+			"id": "4fb1cc9f-229f-4d0a-d466-78c689b8f163",
+			"fieldName": "TimeImpact",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "e5a1d2f5-7038-4f29-9321-d5191091ee82",
+			"fieldName": "Priority",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "b64fa898-4f9f-48d3-e050-07394e637fdd",
+			"fieldName": "Details",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "90ba48b3-999f-4fc6-df4a-603a7f10748f",
+			"fieldName": "Images",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "2e7e6882-f2a2-4013-9b6c-2ec62a0a91fc",
+			"fieldName": "Area",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "466a9d6e-ffff-4b9a-eb10-ae43f7f8618d",
+			"fieldName": "Zone",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "5e46ccda-0929-4b03-d400-5421570c0bb4",
+			"fieldName": "TeamLeader",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "3e0d5c40-d47f-4f5c-cacc-cf8aaff58600",
+			"fieldName": "Level0completed",
+			"fieldType": "boolean",
+			"default": "false",
+			"isNullable": true
+		},
+		{
+			"id": "b5462f64-7dd9-4f8d-e2ef-d5aaeb0153c7",
+			"fieldName": "4MReference",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "3af232f1-3502-43b9-e4ee-7fd368afa1c3",
+			"fieldName": "Level1complete",
+			"fieldType": "boolean",
+			"default": "false",
+			"isNullable": true
+		},
+		{
+			"id": "8bd15572-281a-444e-8422-7acfe6ab247c",
+			"fieldName": "QNreferenceID",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "53e19768-a316-4e8f-dc94-37c2bcb3e5bf",
+			"fieldName": "whenDetected",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "1dba874b-441f-4bc7-f2df-a07a83890a7b",
+			"fieldName": "howDetected",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "2456dc12-6aca-4524-9067-d53e5604fade",
+			"fieldName": "whosAffected",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "6204c330-63f3-49dd-9ed1-cdcf45752348",
+			"fieldName": "mileage",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "1b6158a0-d556-43e6-a00d-6eef14d5f3c3",
+			"fieldName": "prodNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "6d63e59b-56bb-4c00-ebf4-29a07c8b495d",
+			"fieldName": "driveSide",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "a5d23288-465f-48e6-e300-9019d5da1198",
+			"fieldName": "colour",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "14c2640f-a4dc-4db6-9321-3e4eb20c8208",
+			"fieldName": "codeGroup",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "3e51329d-bf79-42d8-ea6a-93f09cc5459c",
+			"fieldName": "damageCode",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "bd2b30d8-e697-4a58-b4d4-624192bf738f",
+			"fieldName": "location",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "ccar_data_approved",
+	"description": "Main active Concerns",
+	"ver": "23.1.25.1340",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

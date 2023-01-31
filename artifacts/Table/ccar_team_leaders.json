@@ -1,0 +1,27 @@
+{
+	"id": "2c92de9b-7e8d-426d-99df-68dab15def62",
+	"createdAt": "2021-05-03T13:49:53.690Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "03c62cd3-8768-4d6c-83b7-21eee593baa0",
+			"fieldName": "userID",
+			"fieldType": "text"
+		},
+		{
+			"id": "4da64223-a292-4dbf-cbce-ad07c8792b98",
+			"fieldName": "UserName",
+			"fieldType": "text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "ccar_team_leaders",
+	"description": null,
+	"ver": "23.1.31.1123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

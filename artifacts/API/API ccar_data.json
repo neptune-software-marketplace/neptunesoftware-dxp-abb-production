@@ -1,0 +1,450 @@
+{
+	"id": "d233d077-28ac-eb11-85aa-000d3ab252b7",
+	"createdAt": "2021-05-03T15:58:58.386Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "a25c795b-e9f6-448b-d828-170ef7f7c62c",
+			"path": "/ccar_data",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "ccar_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d14e6480-6b9b-422d-81c5-f8916f1953c1",
+			"path": "/ccar_data",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "ccar_data"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "ccar_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "858ab340-bf94-4367-f2b6-accb0e2d18be",
+			"path": "/ccar_data",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "ccar_data"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "ccar_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "be49fdef-3095-4ba1-bdbf-1db2560dff38",
+			"path": "/ccar_data",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "ccar_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "ce08efe7-2f64-4208-8765-e369c6fc1127",
+			"name": "ccar_data",
+			"properties": [
+				{
+					"id": "b64cca00-7039-4e6a-f878-4d44b45e3537",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "8cf83f9d-57f4-4fe8-d0d6-c85d68de8b12",
+					"parent": "",
+					"name": "Reference",
+					"objectType": "string"
+				},
+				{
+					"id": "5cbf4ff7-22f7-4453-c686-4f1edcfbaf8f",
+					"parent": "",
+					"name": "Title",
+					"description": "Component(s)",
+					"objectType": "string"
+				},
+				{
+					"id": "e5f940f3-6f5b-4528-da90-944528ab79c0",
+					"parent": "",
+					"name": "Position",
+					"objectType": "string"
+				},
+				{
+					"id": "d907690c-8d43-40c3-8860-2311dec90af1",
+					"parent": "",
+					"name": "Category",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "b6ac479f-606b-4fb9-a477-17083b93cb47",
+					"parent": "",
+					"name": "Defect",
+					"objectType": "string"
+				},
+				{
+					"id": "6e8905d7-efb6-431b-9dba-07c397ae99a3",
+					"parent": "",
+					"name": "PhotographedProd",
+					"description": "Production Number (7 Digits)",
+					"objectType": "integer"
+				},
+				{
+					"id": "7de3da67-0f3e-4344-93f0-1fe701514339",
+					"parent": "",
+					"name": "Model",
+					"objectType": "string"
+				},
+				{
+					"id": "14b8e6b1-b297-4c04-9420-29744e3191d9",
+					"parent": "",
+					"name": "Varient",
+					"objectType": "string"
+				},
+				{
+					"id": "63912fd7-d7f3-49f4-e6c6-24f51bdb19d5",
+					"parent": "",
+					"name": "QualityStandardPackRef",
+					"objectType": "string"
+				},
+				{
+					"id": "1c5df58e-92e8-49e9-c866-60695fd7b348",
+					"parent": "",
+					"name": "MPAScore",
+					"objectType": "string"
+				},
+				{
+					"id": "52d20866-ddfe-402a-de9e-012418de922a",
+					"parent": "",
+					"name": "PointOfDetection",
+					"objectType": "string"
+				},
+				{
+					"id": "9441f7ca-89af-4c50-ab8f-345d77d2cb11",
+					"parent": "",
+					"name": "ReworkState",
+					"objectType": "string"
+				},
+				{
+					"id": "0b25b32a-820a-4d1f-9403-edeef73c0bae",
+					"parent": "",
+					"name": "CurrentFPV",
+					"objectType": "number"
+				},
+				{
+					"id": "92865286-fbdc-4f7c-e881-590ffd539ea0",
+					"parent": "",
+					"name": "TimeImpact",
+					"objectType": "string"
+				},
+				{
+					"id": "0d4d67e0-1e3d-4422-fc3f-ee7560eb5eea",
+					"parent": "",
+					"name": "Priority",
+					"objectType": "string"
+				},
+				{
+					"id": "5c3590b9-f488-4bd0-b9a4-ae7d14426b34",
+					"parent": "",
+					"name": "Details",
+					"objectType": "string"
+				},
+				{
+					"id": "3e195407-6621-41aa-dc06-854edc6de26e",
+					"parent": "",
+					"name": "Images",
+					"objectType": "string"
+				},
+				{
+					"id": "e5f836e2-ce35-4a0d-c078-45be0bee0445",
+					"parent": "",
+					"name": "Area",
+					"objectType": "string"
+				},
+				{
+					"id": "ad39b6d6-0a77-41b1-9154-abdea15815ff",
+					"parent": "",
+					"name": "Zone",
+					"objectType": "string"
+				},
+				{
+					"id": "59ac5d50-5db8-4316-e018-b55dce2f1d48",
+					"parent": "",
+					"name": "TeamLeader",
+					"objectType": "string"
+				},
+				{
+					"id": "f2de5abc-afb2-41a2-d260-9bd82720647a",
+					"parent": "",
+					"name": "whenDetected",
+					"objectType": "string"
+				},
+				{
+					"id": "73524ccd-272e-419f-fdba-37ef635d2531",
+					"parent": "",
+					"name": "howDetected",
+					"objectType": "string"
+				},
+				{
+					"id": "bac7b83b-c505-4fa0-d7f9-7833c22146b3",
+					"parent": "",
+					"name": "whosAffected",
+					"objectType": "string"
+				},
+				{
+					"id": "57f2ba28-9c8f-4bac-d1cc-6e7b148f3c7e",
+					"parent": "",
+					"name": "milage",
+					"objectType": "string"
+				},
+				{
+					"id": "32622eee-a96a-492b-bb21-2ad8c23e292b",
+					"parent": "",
+					"name": "prodNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "88d8bc3e-a368-4483-ac98-ee392d4c3194",
+					"parent": "",
+					"name": "driveSide",
+					"objectType": "string"
+				},
+				{
+					"id": "d4d597dc-ffef-4b70-9c01-17085ada3755",
+					"parent": "",
+					"name": "colour",
+					"objectType": "string"
+				},
+				{
+					"id": "c045f9aa-ecab-40c5-dd68-33ac72b8216f",
+					"parent": "",
+					"name": "codeGroup",
+					"objectType": "string"
+				},
+				{
+					"id": "3b562cc2-4e0f-46a8-c759-5f54f6c00167",
+					"parent": "",
+					"name": "damageCode",
+					"objectType": "string"
+				},
+				{
+					"id": "a6070dbf-e997-454d-e505-6e1724371162",
+					"parent": "",
+					"name": "location",
+					"objectType": "string"
+				},
+				{
+					"id": "ddc02831-7dbe-42dc-ae0f-0d42e16b256d",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "881f4e0c-c5cf-48f4-fbe4-9a360a26ee2d",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "4cc7a0fd-e398-42f3-eeb6-212831c5669b",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "50ef3aeb-7e45-4ddc-bb4d-636d35605b3a",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "8bab91ac-89ba-477d-cd95-edb62f84c048",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "5980a179-9f6c-4696-c689-28c9bf7f36a1",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "55509b73-feda-4197-bdf0-619e9fb39e48",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API ccar_data",
+	"endpoint": "/api/entity",
+	"ver": "23.1.25.1347",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

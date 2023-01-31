@@ -1,0 +1,31 @@
+{
+	"id": "e5295d25-4f41-ec11-981f-0050f2794553",
+	"createdAt": "2021-11-09T11:21:13.670Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "3EB2558A-C5CE-4EAD-9F74-1AEDAF487C47",
+			"name": "concern_stats",
+			"contextname": "concern_stats"
+		},
+		{
+			"id": "0255AF6B-FB6F-4D4C-9A2C-AEFFEBDC23FD",
+			"name": "ccar_data_approved",
+			"contextname": "ccar_data_approved"
+		}
+	],
+	"apis": [],
+	"name": "ConcernStatCalc",
+	"ver": "21.11.9.1122",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "7959a915-4f41-ec11-981f-0050f2794553",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

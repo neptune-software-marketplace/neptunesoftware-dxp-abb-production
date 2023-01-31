@@ -1,0 +1,17 @@
+{
+	"id": "82d216e3-266f-ed11-9f60-0022489e239a",
+	"createdAt": "2022-11-28T14:13:53.780Z",
+	"createdBy": "hendrik",
+	"settings": {
+		"tableid": "0255af6b-fb6f-4d4c-9a2c-aeffebdc23fd",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "QualityConcern_Approved_List - auto-generated connector",
+	"description": " - auto-generated connector",
+	"group": null,
+	"type": "T",
+	"ver": "23.1.25.1338",
+	"disabled": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

@@ -1,0 +1,279 @@
+{
+	"id": "0ed2768a-1eac-eb11-85aa-000d3ab252b7",
+	"createdAt": "2021-05-03T14:48:01.020Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "37a5d23d-59b3-4c78-8dfb-c0c0f5a9b290",
+			"path": "/roqc_gateways",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "roqc_gateways"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "36c59ec5-2008-4891-b67e-4203baadb8c3",
+			"path": "/roqc_gateways",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "roqc_gateways"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "roqc_gateways"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "89bc0c45-5d4d-44f6-d1bc-d3943e20ae9b",
+			"path": "/roqc_gateways",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "roqc_gateways"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "roqc_gateways"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0988d22d-e95a-4a4e-82db-b45ea44275a4",
+			"path": "/roqc_gateways",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "roqc_gateways"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "a83b0455-62c2-4406-8f7f-143c07708045",
+			"name": "roqc_gateways",
+			"properties": [
+				{
+					"id": "18620209-94b2-4a05-f808-5eaa613e4084",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "e4700c3d-68e5-4ab3-ed1e-5d2c29445a0e",
+					"parent": "",
+					"name": "gatewayCode",
+					"objectType": "string"
+				},
+				{
+					"id": "fdf79fd4-56a6-4e9e-b286-0ec58423371e",
+					"parent": "",
+					"name": "gatewayName",
+					"objectType": "string"
+				},
+				{
+					"id": "aaec03ba-c50b-49eb-d344-2fd2a161f716",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "8ea39862-bc5e-47e3-9085-a8a63d28540b",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "687612ef-4ae4-4610-c185-14c7a158f88d",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "09cc24ee-af2a-42a8-c22d-2497f375acc8",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "bd68599b-36f5-4f0f-9ca5-2c591328aac1",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "ac12bb47-876d-40e1-ea82-c4929b406bcb",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "3d67eded-721d-46bc-a7f5-01eea13a877c",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API roqc_gateways",
+	"endpoint": "/api/entity",
+	"ver": "23.1.25.1342",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

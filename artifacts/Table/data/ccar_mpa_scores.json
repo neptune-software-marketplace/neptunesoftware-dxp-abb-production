@@ -1,0 +1,47 @@
+[
+	{
+		"id": "f2146d23-db0d-4419-8cea-aeeda73bd0fb",
+		"createdAt": "1631703251146",
+		"updatedAt": "1631703251146",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"Score": "100",
+		"RPNScoreWeighted": 100
+	},
+	{
+		"id": "d4e74054-a901-4f25-b309-f51f32a62ac5",
+		"createdAt": "1631703251146",
+		"updatedAt": "1631703251146",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"Score": "30",
+		"RPNScoreWeighted": 15
+	},
+	{
+		"id": "6b06a232-e62e-437a-87eb-c2e049dfbace",
+		"createdAt": "1631703251146",
+		"updatedAt": "1631703251146",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"Score": "5",
+		"RPNScoreWeighted": -10
+	},
+	{
+		"id": "3ddc356d-ea5a-4675-bb87-e0bd60dc1ed6",
+		"createdAt": "1631703251146",
+		"updatedAt": "1631703251146",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"Score": "50",
+		"RPNScoreWeighted": 50
+	},
+	{
+		"id": "39f5bed9-3621-4011-9249-5309163cba2f",
+		"createdAt": "1631703251146",
+		"updatedAt": "1631703251146",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"Score": "20",
+		"RPNScoreWeighted": -5
+	}
+]

@@ -1,0 +1,17 @@
+{
+	"id": "1cb0af2a-266f-ed11-9f60-0022489e239a",
+	"createdAt": "2022-11-28T14:08:44.390Z",
+	"createdBy": "hendrik",
+	"settings": {
+		"tableid": "3eb2558a-c5ce-4ead-9f74-1aedaf487c47",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "ConcernStats - auto-generated connector",
+	"description": " - auto-generated connector",
+	"group": null,
+	"type": "T",
+	"ver": "23.1.31.1115",
+	"disabled": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

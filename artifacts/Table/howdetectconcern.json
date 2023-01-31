@@ -1,0 +1,22 @@
+{
+	"id": "d930b80d-f60a-4088-a96e-b779c3721cfc",
+	"createdAt": "2021-05-03T13:50:15.190Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "e6cdace4-dfd4-46c6-830d-8d1231e3d95a",
+			"fieldName": "How",
+			"fieldType": "text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "howdetectconcern",
+	"description": null,
+	"ver": "23.1.25.1349",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

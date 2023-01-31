@@ -1,0 +1,28 @@
+{
+	"id": "70516b75-b4a5-44e1-b9b5-9a5c39562d1b",
+	"createdAt": "2021-05-03T13:49:47.790Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "6fff25ed-578f-4f8e-fe41-054b9f8b3526",
+			"fieldName": "State",
+			"fieldType": "text"
+		},
+		{
+			"id": "2d548d2a-95dc-4d4e-d9db-1e99e17cc8b0",
+			"fieldName": "RPNScoreWeighted",
+			"fieldType": "integer",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "ccar_rework_states",
+	"description": null,
+	"ver": "23.1.31.1123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,31 @@
+{
+	"id": "8448177a-57a1-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-31T11:07:41.100Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "9196400B-BACB-4F46-B123-33E0EB6353FD",
+			"name": "fpv_values",
+			"contextname": "fpv_values"
+		},
+		{
+			"id": "82F88F61-8287-43C3-98ED-8A37C53E3C8F",
+			"name": "rpnscorecalculations",
+			"contextname": "rpnscorecalculations"
+		}
+	],
+	"apis": [],
+	"name": "ReturnPriorityBasedOnRPNCriteria",
+	"ver": "23.1.31.118",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "883420f0-56a1-ed11-994a-0022489f9953",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

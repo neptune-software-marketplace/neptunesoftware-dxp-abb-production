@@ -1,0 +1,176 @@
+{
+	"id": "fc38b181-b7a3-4b6c-81e6-89759e3a4204",
+	"createdAt": "2021-05-03T13:48:17.400Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "0eb34fed-1775-45d1-ab0c-5bced9342018",
+			"method": "POST",
+			"path": "/FuzzySearchOnLevel0Concerns",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "8494cd38-0c42-491d-9221-0625b044fdbb",
+							"name": "FuzzyResponse",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"serverScript": "d5384db3-57a1-ed11-994a-0022489f9953",
+			"content": [
+				{
+					"name": "FuzzyRequest",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "6570b186-b5ef-4da3-be55-8fb1e420fc45",
+			"method": "GET",
+			"path": "/dropPowerBiTable",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "3c3bf0e2-57a1-ed11-994a-0022489f9953"
+		},
+		{
+			"id": "b65b75be-2cfd-4115-b36f-3a838b2c66b3",
+			"method": "POST",
+			"path": "/ReturnPriorityBasedOnRPNCireria",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "5b5aff46-48c9-499f-b07a-24e6e6ebe658",
+							"name": "Data",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"serverScript": "8448177a-57a1-ed11-994a-0022489f9953",
+			"content": [
+				{
+					"name": "PriorityRequest",
+					"objectType": "object"
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "f6cb4878-ee01-4505-8e97-8673429d02df",
+			"name": "FuzzyRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "a0078af4-5782-4823-9bf0-55d5a22a3c02",
+					"name": "component",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "0044955e-0647-430a-d619-6a5df94c8146",
+					"name": "position",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "125d7d0e-d177-43cc-8d28-289bcda12794",
+			"name": "FuzzyResponse",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		},
+		{
+			"id": "1a673327-f7eb-40c5-ad6a-be1cde32819b",
+			"name": "PriorityRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		},
+		{
+			"id": "95f06025-e9a3-46e2-cf06-70eb2158c388",
+			"name": "Data",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		}
+	],
+	"documentation": [],
+	"name": "RoQC Scripts",
+	"endpoint": "/api/serverscript/roqcscripts",
+	"ver": "23.1.31.1113",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,52 @@
+{
+	"id": "f8d52c22-cfdc-42cc-8d86-dfa001d51525",
+	"createdAt": "2021-05-03T13:48:17.996Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "a6b29637-60c6-4958-ebe4-06b7a9a5f136",
+			"method": "GET",
+			"path": "/push",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "779d7c26-57a1-ed11-994a-0022489f9953"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "PushNotificationForConcernCreation",
+	"endpoint": "/api/serverscript/pushnotificationforconcerncreation",
+	"ver": "23.1.31.1112",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

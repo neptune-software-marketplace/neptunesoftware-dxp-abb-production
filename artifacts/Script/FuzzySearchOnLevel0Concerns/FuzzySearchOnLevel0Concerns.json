@@ -1,0 +1,33 @@
+{
+	"id": "d5384db3-57a1-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-31T11:09:17.073Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "C415EF9F-1516-EC11-AE72-0050F255283A",
+			"name": "fuse.js",
+			"contextname": "fusejs",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/fuse.js"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "0255AF6B-FB6F-4D4C-9A2C-AEFFEBDC23FD",
+			"name": "ccar_data_approved",
+			"contextname": "ccar_data_approved"
+		}
+	],
+	"apis": [],
+	"name": "FuzzySearchOnLevel0Concerns",
+	"ver": "23.1.31.119",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "883420f0-56a1-ed11-994a-0022489f9953",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

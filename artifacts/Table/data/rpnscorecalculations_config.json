@@ -1,0 +1,17 @@
+[
+	{
+		"id": "e498494e-1f04-45d9-b084-5f15d54891c3",
+		"createdAt": "1631706235479",
+		"updatedAt": "1631706235479",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"MPAScoreMulti": 2,
+		"ReqdReworkMulti": 1,
+		"FPVMulti": 1,
+		"TimeImpactMulti": 2,
+		"roundingTo": 125,
+		"MasterMultiplier": 16,
+		"LowerBound": "3000",
+		"HigherBound": "5624"
+	}
+]

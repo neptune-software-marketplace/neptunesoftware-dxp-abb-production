@@ -1,0 +1,273 @@
+{
+	"id": "08cf538f-37ac-eb11-85aa-000d3ab252b7",
+	"createdAt": "2021-05-03T17:47:00.283Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "99a711d8-f32f-40f8-9e86-bed4d7a0d53d",
+			"path": "/rocqfeedback",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rocqfeedback"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "475c9b46-65fd-4a19-874e-74212d5cdbdd",
+			"path": "/rocqfeedback",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "rocqfeedback"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rocqfeedback"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "a2a8d7d3-f07d-4c5b-d520-6c799d145c8e",
+			"path": "/rocqfeedback",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "rocqfeedback"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rocqfeedback"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8930ea99-dd99-41ef-df15-4f2b0c49e109",
+			"path": "/rocqfeedback",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rocqfeedback"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "2bc8a82c-4c59-4534-a613-5eb9ac4e626f",
+			"name": "rocqfeedback",
+			"properties": [
+				{
+					"id": "e2244b3d-0a31-4683-c13f-cdc9104ddd2e",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "0bd79760-5a20-482b-bcc4-39d01b774207",
+					"parent": "",
+					"name": "feedback",
+					"objectType": "string"
+				},
+				{
+					"id": "83508af8-b114-465c-dfca-600b323fbb7b",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "dd08055c-79ab-40d5-c462-15258da2e9f3",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "afc07b1c-3b26-4bf6-a174-21605073777d",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "18d5594d-6d2d-4952-d2b7-460571b18589",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "20d24933-a63b-4f16-9957-2ad0788f8b4e",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "b5679e06-054c-4ed1-b613-b1f40878d16b",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "c76403b2-fa09-45b9-fc76-b8aba4e46f62",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API rocqfeedback",
+	"endpoint": "/api/entity",
+	"ver": "23.1.31.1111",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

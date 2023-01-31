@@ -1,0 +1,22 @@
+{
+	"id": "d27db566-f3a6-4224-984c-aea5c17665bc",
+	"createdAt": "2021-05-03T13:50:13.560Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "3969cb83-0313-4dff-c51c-b7a61f9d23a6",
+			"fieldName": "LocationName",
+			"fieldType": "text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "concern_locations",
+	"description": null,
+	"ver": "23.1.25.1339",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

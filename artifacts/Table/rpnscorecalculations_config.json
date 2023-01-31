@@ -1,0 +1,62 @@
+{
+	"id": "d8f80945-9e2d-49ab-939f-41f1a72da686",
+	"createdAt": "2021-05-03T13:50:05.876Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "8fb4bae2-7643-4b8c-faec-f15b75b2e2c0",
+			"fieldName": "MPAScoreMulti",
+			"fieldType": "decimal"
+		},
+		{
+			"id": "c4575141-2af4-4205-b664-a07541bba122",
+			"fieldName": "ReqdReworkMulti",
+			"fieldType": "decimal"
+		},
+		{
+			"id": "2e0ae52c-fbeb-4050-e528-6559557eb7d6",
+			"fieldName": "FPVMulti",
+			"fieldType": "decimal"
+		},
+		{
+			"id": "074fa4ff-6f9c-4fc4-ff83-04c586ad087e",
+			"fieldName": "TimeImpactMulti",
+			"fieldType": "decimal"
+		},
+		{
+			"id": "a7af2718-af11-42de-905a-93ade5e76063",
+			"fieldName": "roundingTo",
+			"fieldType": "integer"
+		},
+		{
+			"id": "2ac9af01-39b4-4c10-ab44-7217f759bf51",
+			"fieldName": "MasterMultiplier",
+			"fieldType": "integer",
+			"isNullable": true
+		},
+		{
+			"id": "173139ac-4a72-43c3-eb76-9b532815c802",
+			"fieldName": "LowerBound",
+			"fieldType": "text",
+			"description": "Anything less than is Low",
+			"isNullable": true
+		},
+		{
+			"id": "f73238af-2590-43cc-e75f-15e44ab8c3f4",
+			"fieldName": "HigherBound",
+			"fieldType": "text",
+			"description": "Anything more than is High",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rpnscorecalculations_config",
+	"description": null,
+	"ver": "23.1.25.1351",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

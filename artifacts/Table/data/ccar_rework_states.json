@@ -1,0 +1,38 @@
+[
+	{
+		"id": "e1002c7e-70eb-4388-94ce-27e0a31a87a9",
+		"createdAt": "1631703350078",
+		"updatedAt": "1631703350078",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"State": "Offline rework",
+		"RPNScoreWeighted": 30
+	},
+	{
+		"id": "c9f01b00-eed1-4671-a44b-d1026ef6d1e1",
+		"createdAt": "1631703350078",
+		"updatedAt": "1631703350078",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"State": "Offsite rework/heavy mech",
+		"RPNScoreWeighted": 50
+	},
+	{
+		"id": "61fa0a1c-894a-445f-a3a3-8bfbb4985ddc",
+		"createdAt": "1631703350078",
+		"updatedAt": "1631703350078",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"State": "Not possible",
+		"RPNScoreWeighted": 100
+	},
+	{
+		"id": "07226de1-2854-448c-a581-eee0ceab37ab",
+		"createdAt": "1631703350078",
+		"updatedAt": "1631703350078",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"State": "In line rework",
+		"RPNScoreWeighted": 10
+	}
+]

@@ -1,0 +1,317 @@
+{
+	"id": "c1e1ef93-25ac-eb11-85aa-000d3ab252b7",
+	"createdAt": "2021-05-03T15:38:17.083Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "4ab306f1-86ee-4b0c-cb06-95895dd21d1b",
+			"path": "/rpnscorecalculations_config",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rpnscorecalculations_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "a1f83ae7-3a65-4d2b-c658-800ff08b233d",
+			"path": "/rpnscorecalculations_config",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "rpnscorecalculations_config"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rpnscorecalculations_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "1f11c5fd-7b09-4ecd-b108-276523b2fcec",
+			"path": "/rpnscorecalculations_config",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "rpnscorecalculations_config"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rpnscorecalculations_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0a18e3fe-8980-4d9f-f35e-c2d4b03f3eeb",
+			"path": "/rpnscorecalculations_config",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rpnscorecalculations_config"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "7c1a18ba-7de3-405d-c89c-3209efc90b86",
+			"name": "rpnscorecalculations_config",
+			"properties": [
+				{
+					"id": "e18025b4-50eb-4b5d-c3db-8da75d4b0ebe",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "a5b25922-d513-4855-e765-ca827bc192b5",
+					"parent": "",
+					"name": "MPAScoreMulti",
+					"objectType": "number"
+				},
+				{
+					"id": "a0df69b3-2324-4f27-b33f-f4ef81fdcac4",
+					"parent": "",
+					"name": "ReqdReworkMulti",
+					"objectType": "number"
+				},
+				{
+					"id": "00e3091e-2187-4db7-9d24-25f50b0c7101",
+					"parent": "",
+					"name": "FPVMulti",
+					"objectType": "number"
+				},
+				{
+					"id": "e5d85e07-8b37-452f-c9c8-10bfe8ca0f56",
+					"parent": "",
+					"name": "TimeImpactMulti",
+					"objectType": "number"
+				},
+				{
+					"id": "85678b78-945b-45d1-fa3f-5e7d1a5ba09c",
+					"parent": "",
+					"name": "roundingTo",
+					"objectType": "integer"
+				},
+				{
+					"id": "5959b5a1-efc1-4d34-e07c-bb4fdfa68aa3",
+					"parent": "",
+					"name": "MasterMultiplier",
+					"objectType": "integer"
+				},
+				{
+					"id": "31b0a932-a478-4416-e024-b566ba84262e",
+					"parent": "",
+					"name": "LowerBound",
+					"description": "Anything less than is Low",
+					"objectType": "string"
+				},
+				{
+					"id": "8d17dddb-0723-41b8-859c-95534d467dd2",
+					"parent": "",
+					"name": "HigherBound",
+					"description": "Anything more than is High",
+					"objectType": "string"
+				},
+				{
+					"id": "f668c846-07a2-4db4-da38-4825cd829f7c",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "48a87721-3aab-45d3-d854-8837ebb9262c",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "8390a99c-a7e9-4118-84e3-f901a787cf4d",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "18f223ab-2646-49ae-f73f-2cf92bbbb5fa",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "5a0537e9-7e50-4b0b-837b-50a9fe09a3a0",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "6b566ce6-e37f-4151-b34e-ce5bfccf473d",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "0c22b02c-425c-4982-ae6c-e846d99e8b39",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API rpnscorecalculations_config",
+	"endpoint": "/api/entity",
+	"ver": "23.1.25.1350",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,28 @@
+{
+	"id": "485eb0be-39d8-4097-909c-ce77080f64d2",
+	"createdAt": "2021-05-03T13:49:46.390Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "16ae351a-d5d7-4dc9-b4ed-a02ac4c2ebde",
+			"fieldName": "Score",
+			"fieldType": "text"
+		},
+		{
+			"id": "3d977d8c-7454-42f9-8702-353d1e798840",
+			"fieldName": "RPNScoreWeighted",
+			"fieldType": "integer",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "ccar_mpa_scores",
+	"description": null,
+	"ver": "23.1.31.1123",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

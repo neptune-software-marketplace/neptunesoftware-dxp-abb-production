@@ -1,0 +1,439 @@
+{
+	"id": "ee53bdbe-9140-439f-872c-e38fc3e688cd",
+	"createdAt": "2021-05-03T14:22:21.196Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "sap-icon://create-form",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "sap-icon://refresh",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": true,
+				"enableMultiSelect": false,
+				"enableVariant": true,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Quality Concern Viewer",
+				"subTitle": "View all Approved Concerns",
+				"avatarIcon": "sap-icon://quality-issue",
+				"avatarBackgroundColor": "Random",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "e4387374-e54b-4274-82f6-6548ce689038",
+					"keyField": [],
+					"dialogTitle": "",
+					"dialogIcon": "",
+					"dialogHeight": "1000px",
+					"dialogResize": true
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "S",
+					"butType": "Accept",
+					"destinationTargetF": "874dd69c-2d3a-454c-9890-0bfe0ddb8caa",
+					"keyField": [
+						{
+							"fieldName": "Reference",
+							"key": "Reference",
+							"value": ""
+						}
+					],
+					"dialogTitle": "Edit Concern",
+					"dialogIcon": "sap-icon://edit",
+					"dialogTitleField": "Title"
+				},
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableImport": false,
+				"actionButtonLeft": false
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"paginationShowSelection": false,
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "4MReference",
+				"label": "4MReference",
+				"type": "text"
+			},
+			{
+				"name": "Area",
+				"label": "Area",
+				"type": "text"
+			},
+			{
+				"name": "Category",
+				"label": "Category",
+				"type": "text"
+			},
+			{
+				"name": "CurrentFPV",
+				"label": "CurrentFPV",
+				"type": "decimal"
+			},
+			{
+				"name": "Defect",
+				"label": "Defect",
+				"type": "text"
+			},
+			{
+				"name": "Details",
+				"label": "Details",
+				"type": "text"
+			},
+			{
+				"name": "Images",
+				"label": "Images",
+				"type": "text"
+			},
+			{
+				"name": "Level0completed",
+				"label": "Level0completed",
+				"type": "boolean"
+			},
+			{
+				"name": "Level1complete",
+				"label": "Level1complete",
+				"type": "boolean"
+			},
+			{
+				"name": "MPAScore",
+				"label": "MPAScore",
+				"type": "text"
+			},
+			{
+				"name": "Model",
+				"label": "Model",
+				"type": "text"
+			},
+			{
+				"name": "PhotographedProd",
+				"label": "Production Number (7 Digits)",
+				"type": "text"
+			},
+			{
+				"name": "PointOfDetection",
+				"label": "PointOfDetection",
+				"type": "text"
+			},
+			{
+				"name": "Position",
+				"label": "Position",
+				"type": "text"
+			},
+			{
+				"name": "Priority",
+				"label": "Priority",
+				"type": "text"
+			},
+			{
+				"name": "QNreferenceID",
+				"label": "QNreferenceID",
+				"type": "text"
+			},
+			{
+				"name": "QualityStandardPackRef",
+				"label": "QualityStandardPackRef",
+				"type": "text"
+			},
+			{
+				"name": "Reference",
+				"label": "Reference",
+				"type": "text"
+			},
+			{
+				"name": "ReworkState",
+				"label": "ReworkState",
+				"type": "text"
+			},
+			{
+				"name": "TeamLeader",
+				"label": "TeamLeader",
+				"type": "text"
+			},
+			{
+				"name": "TimeImpact",
+				"label": "TimeImpact",
+				"type": "text"
+			},
+			{
+				"name": "Title",
+				"label": "Component(s)",
+				"type": "text"
+			},
+			{
+				"name": "Varient",
+				"label": "Varient",
+				"type": "text"
+			},
+			{
+				"name": "Zone",
+				"label": "Zone",
+				"type": "text"
+			},
+			{
+				"name": "codeGroup",
+				"label": "codeGroup",
+				"type": "text"
+			},
+			{
+				"name": "colour",
+				"label": "colour",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "damageCode",
+				"label": "damageCode",
+				"type": "text"
+			},
+			{
+				"name": "driveSide",
+				"label": "driveSide",
+				"type": "text"
+			},
+			{
+				"name": "howDetected",
+				"label": "howDetected",
+				"type": "text"
+			},
+			{
+				"name": "location",
+				"label": "location",
+				"type": "text"
+			},
+			{
+				"name": "mileage",
+				"label": "mileage",
+				"type": "text"
+			},
+			{
+				"name": "prodNumber",
+				"label": "prodNumber",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "whenDetected",
+				"label": "whenDetected",
+				"type": "text"
+			},
+			{
+				"name": "whosAffected",
+				"label": "whosAffected",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "Category",
+				"text": "Category",
+				"fieldPos": 1,
+				"type": "SingleSelect"
+			},
+			{
+				"visible": true,
+				"name": "Defect",
+				"text": "Defect",
+				"fieldPos": 2,
+				"type": "SingleSelect"
+			},
+			{
+				"visible": true,
+				"name": "Priority",
+				"text": "Priority",
+				"fieldPos": 3,
+				"type": "SingleSelectLookup",
+				"lookupTable": "priority_colour_keyword_mapping",
+				"lookupFieldKey": "PriorityNumber",
+				"lookupFieldText": "Means",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Title",
+				"text": "Component(s)",
+				"fieldPos": 4
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Position",
+				"text": "Position",
+				"fieldPos": 5
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Category",
+				"text": "Category",
+				"fieldPos": 6
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Model",
+				"text": "Model",
+				"fieldPos": 7
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Varient",
+				"text": "Varient",
+				"fieldPos": 8
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "Reference",
+				"text": "Reference",
+				"fieldPos": 9
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Zone",
+				"text": "Zone",
+				"fieldPos": 10
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "Priority",
+				"text": "Priority",
+				"fieldPos": 11,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "priority_colour_keyword_mapping",
+					"textField": "Means",
+					"keyField": [
+						{
+							"fieldName": "PriorityNumber",
+							"key": "Priority",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "ObjectStatus",
+				"statusStateType": "Rule",
+				"statusStateRule": "DFF2C62E-AAFF-4F4A-9C95-0C7EB7ADBF5E"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "QNreferenceID",
+				"text": "QN ID",
+				"fieldPos": 12
+			}
+		],
+		"defaultVariant": {
+			"id": "6595c05e-4987-4658-cc9a-8208850f3bc6",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "QualityConcern_Approved_List",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "82d216e3-266f-ed11-9f60-0022489e239a",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "0255af6b-fb6f-4d4c-9a2c-aeffebdc23fd",
+	"ver": "23.1.25.1337",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "0255af6b-fb6f-4d4c-9a2c-aeffebdc23fd",
+		"name": "ccar_data_approved",
+		"ver": "23.1.25.1340"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"id": "3eb2558a-c5ce-4ead-9f74-1aedaf487c47",
+	"createdAt": "2021-05-03T13:50:08.966Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "c8b897e2-d542-4dc4-9a6b-21bf3f5aeb3c",
+			"fieldName": "Priority",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "732fee0e-1864-4344-b702-7a479b11b541",
+			"fieldName": "Count",
+			"fieldType": "integer",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "concern_stats",
+	"description": null,
+	"ver": "23.1.25.1339",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}
