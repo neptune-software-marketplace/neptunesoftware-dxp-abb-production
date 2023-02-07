@@ -1,0 +1,36 @@
+var response = modeloMultiModelSAPQNDetailsMOCK.getData();
+console.log("Raw response:")
+console.log(response[0])
+
+console.log("Stringified Data from MOCK QN to display:")
+var responseParsed = JSON.parse(response[0].StringifiedData);
+console.log(responseParsed.T_TEXT_CONCERN);
+console.log(responseParsed.T_TEXT_GAP);
+console.log(responseParsed.T_TEXT_SPECIFICATION);
+
+console.log("Before DeArray:");
+console.log(responseParsed);
+
+//De-array the "T_TEXT_CONCERN": "T_TEXT_GAP": & "T_TEXT_SPECIFICATION":
+var T_TEXT_CONCERNfinal = "";
+for (i = 0; i < responseParsed.T_TEXT_CONCERN.length; i++) {
+    var T_TEXT_CONCERNfinal = T_TEXT_CONCERNfinal.concat(responseParsed.T_TEXT_CONCERN[i].TDLINE);
+}
+responseParsed.T_TEXT_CONCERN = T_TEXT_CONCERNfinal;
+
+var T_TEXT_GAPfinal = "";
+for (i = 0; i < responseParsed.T_TEXT_GAP.length; i++) {
+    var T_TEXT_GAPfinal = T_TEXT_GAPfinal.concat(responseParsed.T_TEXT_GAP[i].TDLINE);
+}
+responseParsed.T_TEXT_GAP = T_TEXT_GAPfinal;
+
+var T_TEXT_SPECIFICATIONfinal = "";
+for (i = 0; i < responseParsed.T_TEXT_SPECIFICATION.length; i++) {
+    var T_TEXT_SPECIFICATIONfinal = T_TEXT_SPECIFICATIONfinal.concat(responseParsed.T_TEXT_SPECIFICATION[i].TDLINE);
+}
+responseParsed.T_TEXT_SPECIFICATION = T_TEXT_SPECIFICATIONfinal;
+
+console.log("After DeArray:");
+console.log(responseParsed);
+
+modeloSimpleFormQNData.setData(responseParsed);

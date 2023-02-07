@@ -1,0 +1,12 @@
+var data = modeloModelArrayData.getData();
+
+var dataSubset = data[0]
+
+var images = dataSubset.Images;
+console.log(images);
+
+var correctImageFormat = JSON.parse(images);
+
+dataSubset.Images = correctImageFormat;
+
+modeloCarousel.setData(dataSubset.Images);

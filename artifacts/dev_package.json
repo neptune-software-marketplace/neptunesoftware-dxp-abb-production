@@ -7,14 +7,26 @@
 	},
 	"name": "neptunesoftware-dxp-abb-production",
 	"description": "DXP Production Scenario",
-	"ver": "23.2.7.1243",
+	"ver": "23.2.7.1248",
 	"enableCICD": true,
 	"apps": [
+		{
+			"id": "e1ea1be9-07d3-4123-a047-fb166e34938d",
+			"application": "rocq_level1",
+			"title": "",
+			"description": ""
+		},
 		{
 			"id": "89696275-0a38-ec11-981f-0050f2794553",
 			"application": "concernraiserdemov2",
 			"title": "",
 			"description": "This is the one used in the tile"
+		},
+		{
+			"id": "74a1c656-04aa-49f7-838c-024165ccee85",
+			"application": "rocq_create_qn",
+			"title": "",
+			"description": ""
 		}
 	],
 	"api": [

@@ -1,0 +1,11 @@
+sap.m.MessageToast.show("QN Assigned to Concern!");
+
+oSimpleFormQNDetails.setVisible(false);
+oHBoxButton.setVisible(false);
+
+
+setTimeout(function() {
+
+    apioRestAPIGetConcernData();
+
+}, 3000);

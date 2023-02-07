@@ -1,0 +1,19 @@
+var qnResponse = modeloMultiModelQNReferenceResponseMOCK.getData();
+
+console.log("qnResponse ID");
+console.log(qnResponse.mockQNID);
+
+sap.m.MessageToast.show("Assigning QN to Concern...");
+// Assign MOCK QN response ID to Concern
+
+var data = modeloModelArrayData.getData();
+var dataSubset = data[0];
+var options = {
+    parameters: {
+        "where": JSON.stringify({ "Reference": dataSubset.Reference })
+    },
+    data: {
+        "QNreferenceID": qnResponse.mockQNID
+    }
+};
+apioRestAPIUpdateConcernWithQN_ID(options);

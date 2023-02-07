@@ -1,0 +1,170 @@
+{
+	"id": "e1ea1be9-07d3-4123-a047-fb166e34938d",
+	"createdAt": "2021-09-15T10:07:46.060Z",
+	"createdBy": "lloyd",
+	"objects": [
+		{
+			"fieldNo": "30a903b1-2117-455b-caa6-599c8302a5a0",
+			"fieldName": "oCarousel",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Carousel",
+			"script": "",
+			"customComponent": false,
+			"bindingValue": "Generic Array",
+			"bindingType": "h",
+			"bindingSource": "P9",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "575px",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "styleClassMargin",
+					"grouping": "Properties",
+					"value": "sapUiSmallMargin",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "91f59b3d-a144-41b5-c9a6-ee81eb1309b6",
+					"fieldName": "oImage",
+					"fieldParent": "30a903b1-2117-455b-caa6-599c8302a5a0",
+					"fieldType": "sap.m.Image",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "src",
+							"grouping": "Properties",
+							"value": "{image64string}",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "d0a4d353-d4e8-4a70-856c-0e5dc08225b0",
+					"fieldName": "oModelArrayData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.array",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "API ccar_data_approved>ccar_data_approved",
+					"bindingType": "h",
+					"bindingSource": "API",
+					"bindingParentID": "23950ef0-927e-40c2-b4ae-03536ea62c82",
+					"bindingPathID": "b6ff367e-261d-43bb-e809-cb3db93d815b",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "75991a41-1f42-4f14-901a-ca462a241a39",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript.script",
+					"customComponent": false,
+					"filePath": "ojavascript",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "67e62832-4d59-4107-a403-8e33dbc71951",
+					"fieldName": "oRestAPIGetConcernData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "8e60d6d0-32ac-eb11-85aa-000d3ab252b7",
+					"restOperation": "a9789efa-7e1c-4afb-d29e-e41b27a17b43",
+					"request": [],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "73d30c2f-ee8e-4755-9c90-1cfb685a1338",
+							"modelFieldNo": "d0a4d353-d4e8-4a70-856c-0e5dc08225b0"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPIGetConcernData/ajaxSuccess.script",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.2.7.1252",
+	"application": "rocq_level1",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [
+		{
+			"id": "8e60d6d0-32ac-eb11-85aa-000d3ab252b7",
+			"name": "API ccar_data_approved",
+			"ver": "23.1.25.1347"
+		}
+	],
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953"
+}

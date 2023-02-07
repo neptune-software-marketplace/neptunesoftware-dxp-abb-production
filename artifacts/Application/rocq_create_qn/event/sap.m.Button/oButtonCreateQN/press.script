@@ -1,0 +1,7 @@
+//console.log(oSwitch.getState())
+mockCreateQN();
+// if (oSwitch.getState() === false){
+    
+// } else {
+//     createQN();
+// }

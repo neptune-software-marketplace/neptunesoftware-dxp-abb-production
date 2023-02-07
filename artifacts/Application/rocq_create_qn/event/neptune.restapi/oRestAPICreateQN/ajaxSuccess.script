@@ -1,0 +1,26 @@
+var qnResponse = modeloMultiModelQNReferenceResponse.getData();
+
+console.log("qnResponse");
+//console.log(qnResponse.result.T_MESSAGES[0].MESSAGE);
+
+var res = qnResponse.result.T_MESSAGES[0].MESSAGE.split(" ");
+//Concern: 000100042469 generated
+console.log(res[1]);
+
+sap.m.MessageToast.show("Assigning QN to Concern...");
+// Assign QN response ID to Concern
+// *****
+
+var data = modeloModelArrayData.getData();
+var dataSubset = data[0];
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({ "Reference": dataSubset.Reference })
+    },
+    data: {
+        "QNreferenceID": res[1]
+    }
+};
+
+apioRestAPIUpdateConcernWithQN_ID(options);
