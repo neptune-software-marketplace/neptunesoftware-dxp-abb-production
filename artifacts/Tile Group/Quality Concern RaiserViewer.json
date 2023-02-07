@@ -1,0 +1,109 @@
+{
+	"id": "20c1c879-0d16-ec11-ae72-0050f255283a",
+	"createdAt": "2021-09-15T10:12:48.543Z",
+	"createdBy": "admin",
+	"translation": [],
+	"tilesOrder": [
+		"80573a28-dc07-420b-8a28-46fac2a01b94",
+		"dda7e828-ba11-ec11-b563-0050f255e893",
+		"419ca6a7-7b6b-4c94-b65d-ff3e0159a184",
+		"9a3ecc24-2a3e-ec11-981f-0050f2794553",
+		"7282b41b-a340-ec11-981f-0050f2794553"
+	],
+	"tilegroupsOrder": [
+		"376c2452-5241-ec11-981f-0050f2794553"
+	],
+	"configMessage": {},
+	"title": "Quality Concern",
+	"subTitle": null,
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "23.2.7.123",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Quality Concern RaiserViewer",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "dda7e828-ba11-ec11-b563-0050f255e893",
+			"name": "Universal Workflow Inbox",
+			"title": "Inbox",
+			"ver": "21.11.4.1549"
+		},
+		{
+			"id": "9a3ecc24-2a3e-ec11-981f-0050f2794553",
+			"name": "Production_Video",
+			"title": "Production Demo",
+			"ver": "21.11.11.1448"
+		},
+		{
+			"id": "80573a28-dc07-420b-8a28-46fac2a01b94",
+			"name": "Quality Concern Raiser",
+			"title": "Concern Raiser",
+			"ver": "23.1.25.1336"
+		},
+		{
+			"id": "7282b41b-a340-ec11-981f-0050f2794553",
+			"name": "QualityConcern_Viewer_Mobile",
+			"title": "Concern Viewer",
+			"ver": "21.11.8.1643"
+		},
+		{
+			"id": "419ca6a7-7b6b-4c94-b65d-ff3e0159a184",
+			"name": "Quality Concern Viewer",
+			"title": "Concern Viewer ",
+			"ver": "23.1.25.1336"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "376c2452-5241-ec11-981f-0050f2794553",
+			"name": "Concern_Statistics",
+			"title": "Concern Statistics",
+			"ver": "21.11.9.1157"
+		}
+	]
+}

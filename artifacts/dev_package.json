@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-production",
 	"description": "DXP Production Scenario",
-	"ver": "23.1.31.1136",
+	"ver": "23.2.7.125",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -218,8 +218,20 @@
 			"name": "Concern_Stats"
 		}
 	],
-	"category": [],
-	"launchpad": [],
+	"category": [
+		{
+			"id": "20c1c879-0d16-ec11-ae72-0050f255283a",
+			"description": null,
+			"name": "Quality Concern RaiserViewer"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "b79e698b-dfa6-ed11-a8e0-0022489f97c8",
+			"name": "Production_launchpad",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
