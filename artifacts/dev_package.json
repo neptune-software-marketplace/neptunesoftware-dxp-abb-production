@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-production",
 	"description": "DXP Production Scenario",
-	"ver": "23.2.7.125",
+	"ver": "23.2.7.126",
 	"enableCICD": true,
 	"apps": [
 		{
