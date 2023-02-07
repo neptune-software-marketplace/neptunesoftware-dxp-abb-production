@@ -1,0 +1,27 @@
+{
+	"id": "618dc942-98ae-4a00-9b2e-de7648d632ea",
+	"createdAt": "2021-05-03T13:50:16.703Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "49939842-dc4b-49dd-fa49-aa2a27ab942e",
+			"fieldName": "PriorityNumber",
+			"fieldType": "text"
+		},
+		{
+			"id": "e7886b3f-bf8b-4d75-f772-774cd4208e1c",
+			"fieldName": "Means",
+			"fieldType": "text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "priority_colour_keyword_mapping",
+	"description": null,
+	"ver": "23.2.7.1241",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -118,6 +118,11 @@
 			"description": null
 		},
 		{
+			"id": "618dc942-98ae-4a00-9b2e-de7648d632ea",
+			"name": "priority_colour_keyword_mapping",
+			"description": null
+		},
+		{
 			"id": "485eb0be-39d8-4097-909c-ce77080f64d2",
 			"name": "ccar_mpa_scores",
 			"description": null
