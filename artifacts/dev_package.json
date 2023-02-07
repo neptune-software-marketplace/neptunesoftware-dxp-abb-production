@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-production",
 	"description": "DXP Production Scenario",
-	"ver": "23.2.7.1233",
+	"ver": "23.2.7.1243",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -203,6 +203,12 @@
 			"name": "ConcernStats",
 			"description": "",
 			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "874dd69c-2d3a-454c-9890-0bfe0ddb8caa",
+			"name": "QualityConcern_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
 		}
 	],
 	"api_authentication": [],
@@ -266,6 +272,11 @@
 		{
 			"id": "82d216e3-266f-ed11-9f60-0022489e239a",
 			"name": "QualityConcern_Approved_List - auto-generated connector",
+			"description": " - auto-generated connector"
+		},
+		{
+			"id": "439c637c-286f-ed11-9f60-0022489e239a",
+			"name": "QualityConcern_edit - auto-generated connector",
 			"description": " - auto-generated connector"
 		},
 		{

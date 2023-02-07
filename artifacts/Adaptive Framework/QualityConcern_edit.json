@@ -1,0 +1,408 @@
+{
+	"id": "874dd69c-2d3a-454c-9890-0bfe0ddb8caa",
+	"createdAt": "2021-05-03T14:22:21.473Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "sap-icon://fa-solid/save",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "Details",
+				"tab1Text": "Images",
+				"tab2Text": "Test",
+				"tab3Text": "Images",
+				"tab4Text": "Raise in SAP",
+				"tab5Text": "Hello!",
+				"enableClose": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": true,
+				"enableTab4": true,
+				"enableTab5": false,
+				"avatarIcon": "sap-icon://quality-issue",
+				"avatarBackgroundColor": "Random",
+				"title": "Quality Concern Overview",
+				"subTitle": "View Concern Detail",
+				"tab0Icon": "sap-icon://detail-view",
+				"tab1Icon": "sap-icon://picture",
+				"tab2Icon": "sap-icon://fa-regular/question-circle",
+				"tab3Icon": "sap-icon://fa-regular/file-image",
+				"tab4Icon": "sap-icon://sap-logo-shape",
+				"tab5Icon": "sap-icon://fa-solid/link",
+				"_tab5Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				},
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				},
+				"_tab3Nav": {
+					"destinationType": "A",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetA": "rocq_level1",
+					"destinationTargetF": "E4387374-E54B-4274-82F6-6548CE689038",
+					"keyField": []
+				},
+				"_tab4Nav": {
+					"destinationType": "A",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetA": "rocq_create_qn",
+					"keyField": []
+				},
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"columnsL": "",
+				"columnsM": "",
+				"labelSpanL": "",
+				"labelSpanM": "",
+				"titleLevel": ""
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "Reference",
+				"label": "Reference",
+				"type": "text"
+			},
+			{
+				"name": "Title",
+				"label": "Component(s)",
+				"type": "text"
+			},
+			{
+				"name": "Position",
+				"label": "Position",
+				"type": "text"
+			},
+			{
+				"name": "Category",
+				"label": "Category",
+				"type": "text"
+			},
+			{
+				"name": "Defect",
+				"label": "Defect",
+				"type": "text"
+			},
+			{
+				"name": "PhotographedProd",
+				"label": "Production Number (7 Digits)",
+				"type": "text"
+			},
+			{
+				"name": "Model",
+				"label": "Model",
+				"type": "text"
+			},
+			{
+				"name": "Varient",
+				"label": "Varient",
+				"type": "text"
+			},
+			{
+				"name": "QualityStandardPackRef",
+				"label": "QualityStandardPackRef",
+				"type": "text"
+			},
+			{
+				"name": "MPAScore",
+				"label": "MPAScore",
+				"type": "text"
+			},
+			{
+				"name": "PointOfDetection",
+				"label": "PointOfDetection",
+				"type": "text"
+			},
+			{
+				"name": "ReworkState",
+				"label": "ReworkState",
+				"type": "text"
+			},
+			{
+				"name": "CurrentFPV",
+				"label": "CurrentFPV",
+				"type": "decimal"
+			},
+			{
+				"name": "TimeImpact",
+				"label": "TimeImpact",
+				"type": "text"
+			},
+			{
+				"name": "Priority",
+				"label": "Priority",
+				"type": "text"
+			},
+			{
+				"name": "Details",
+				"label": "Details",
+				"type": "text"
+			},
+			{
+				"name": "Images",
+				"label": "Images",
+				"type": "text"
+			},
+			{
+				"name": "Area",
+				"label": "Area",
+				"type": "text"
+			},
+			{
+				"name": "Zone",
+				"label": "Zone",
+				"type": "text"
+			},
+			{
+				"name": "TeamLeader",
+				"label": "TeamLeader",
+				"type": "text"
+			},
+			{
+				"name": "Level0completed",
+				"label": "Level0completed",
+				"type": "boolean"
+			},
+			{
+				"name": "4MReference",
+				"label": "4MReference",
+				"type": "text"
+			},
+			{
+				"name": "Level1complete",
+				"label": "Level1complete",
+				"type": "boolean"
+			},
+			{
+				"name": "QNreferenceID",
+				"label": "QNreferenceID",
+				"type": "text"
+			},
+			{
+				"name": "whenDetected",
+				"label": "whenDetected",
+				"type": "text"
+			},
+			{
+				"name": "howDetected",
+				"label": "howDetected",
+				"type": "text"
+			},
+			{
+				"name": "whosAffected",
+				"label": "whosAffected",
+				"type": "text"
+			},
+			{
+				"name": "mileage",
+				"label": "mileage",
+				"type": "text"
+			},
+			{
+				"name": "prodNumber",
+				"label": "prodNumber",
+				"type": "text"
+			},
+			{
+				"name": "driveSide",
+				"label": "driveSide",
+				"type": "text"
+			},
+			{
+				"name": "colour",
+				"label": "colour",
+				"type": "text"
+			},
+			{
+				"name": "codeGroup",
+				"label": "codeGroup",
+				"type": "text"
+			},
+			{
+				"name": "damageCode",
+				"label": "damageCode",
+				"type": "text"
+			},
+			{
+				"name": "location",
+				"label": "location",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": false,
+				"visible": true,
+				"name": "Title",
+				"text": "Component(s)",
+				"fieldPos": 1,
+				"enableNewForm": false,
+				"columnLabel": "",
+				"placeholder": "Component(s)"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "Position",
+				"text": "Position",
+				"fieldPos": 2,
+				"placeholder": "Position",
+				"columnLabel": ""
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "Model",
+				"text": "Model",
+				"fieldPos": 3
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "Varient",
+				"text": "Part",
+				"fieldPos": 4,
+				"enableNewForm": false
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "QualityStandardPackRef",
+				"text": "Document Reference",
+				"fieldPos": 5,
+				"enableNewForm": true,
+				"labelSpanL": "",
+				"labelSpanM": "",
+				"columnLabel": ""
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "MPAScore",
+				"text": "Impact Score",
+				"fieldPos": 6
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "ReworkState",
+				"text": "Proposed Fix",
+				"fieldPos": 7,
+				"type": "SingleSelectLookup",
+				"lookupTable": "ccar_rework_states",
+				"lookupFieldKey": "State",
+				"lookupFieldText": "State",
+				"lookupShowOnlyText": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "Details",
+				"text": "Details",
+				"fieldPos": 8,
+				"type": "TextArea",
+				"textAreaRows": "3",
+				"enableNewForm": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "TeamLeader",
+				"text": "Team Leader",
+				"fieldPos": 9,
+				"type": "SingleSelectLookup",
+				"lookupTable": "ccar_team_leaders",
+				"lookupFieldKey": "UserName",
+				"lookupFieldText": "UserName",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "Reference",
+				"text": "Reference",
+				"fieldPos": 10
+			}
+		],
+		"defaultVariant": {
+			"id": "22f9d618-7b6b-4a03-b7b1-074fc4edc5b4",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "QualityConcern_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "439c637c-286f-ed11-9f60-0022489e239a",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "0255af6b-fb6f-4d4c-9a2c-aeffebdc23fd",
+	"ver": "23.2.7.1246",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "0255af6b-fb6f-4d4c-9a2c-aeffebdc23fd",
+		"name": "ccar_data_approved",
+		"ver": "23.1.25.1340"
+	}
+}
