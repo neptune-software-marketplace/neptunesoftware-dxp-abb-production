@@ -1,27 +1,19 @@
 {
-	"id": "b79e698b-dfa6-ed11-a8e0-0022489f97c8",
-	"createdAt": "2023-02-07T12:04:17.580Z",
+	"id": "a74b313e-e3a6-ed11-a8e0-0022489f97c8",
+	"createdAt": "2023-02-07T12:30:45.980Z",
 	"createdBy": "cezar.strugariu@neptune-software.com",
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"20c1c879-0d16-ec11-ae72-0050f255283a"
+		"d40ab916-e3a6-ed11-a8e0-0022489f97c8"
 	],
-	"layout": [
-		{
-			"id": "a457302f-b6e5-4254-b8d8-042f9db0de3d",
-			"css": "",
-			"name": "Peoduction",
-			"active": true,
-			"style": "<style></style>"
-		}
-	],
+	"layout": [],
 	"config": {
 		"enhancement": ""
 	},
 	"enhancement": [],
-	"name": "Production_launchpad",
-	"title": "Production",
+	"name": "Production",
+	"title": null,
 	"description": null,
 	"startApp": null,
 	"startWebApp": null,
@@ -66,7 +58,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.2.7.1211",
+	"ver": "23.2.7.1231",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -79,10 +71,10 @@
 	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
 	"cat": [
 		{
-			"id": "20c1c879-0d16-ec11-ae72-0050f255283a",
-			"name": "Quality Concern RaiserViewer",
-			"title": "Quality Concern",
-			"ver": "23.2.7.123"
+			"id": "d40ab916-e3a6-ed11-a8e0-0022489f97c8",
+			"name": "Production",
+			"title": null,
+			"ver": "23.2.7.1232"
 		}
 	]
 }
