@@ -7,9 +7,16 @@
 	},
 	"name": "neptunesoftware-dxp-abb-production",
 	"description": "DXP Production Scenario",
-	"ver": "23.1.31.1133",
+	"ver": "23.1.31.1136",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "89696275-0a38-ec11-981f-0050f2794553",
+			"application": "concernraiserdemov2",
+			"title": "",
+			"description": "This is the one used in the tile"
+		}
+	],
 	"api": [
 		{
 			"id": "fc38b181-b7a3-4b6c-81e6-89759e3a4204",
@@ -243,7 +250,7 @@
 	"media_library": [
 		{
 			"id": "18F10197-2316-EC11-AE72-0050F255283A",
-			"updatedAt": "2023-01-31T11:35:09.246Z",
+			"updatedAt": "2023-02-07T12:00:00.593Z",
 			"name": "ConcernRaiser",
 			"parent": null,
 			"package": "1FFF24FE-B49C-ED11-994A-0022489F9953"

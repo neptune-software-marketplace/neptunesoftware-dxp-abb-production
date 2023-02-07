@@ -1,0 +1,8 @@
+//var AppCache;
+
+AppCache.Load("rpnadaptivechartviewer", {
+    dialogShow: true,
+    dialogHeight: "600px",
+    dialogWidth: "1024px",
+    dialogModal: false,
+});

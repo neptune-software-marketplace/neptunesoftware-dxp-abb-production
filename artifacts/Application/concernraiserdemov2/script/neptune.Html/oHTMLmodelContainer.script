@@ -1,0 +1,5 @@
+<model-viewer id="modelContainer" autoplay animation-name="Idle" src="" shadow-intensity="1" ar ar-scale="auto"
+    ar-placement="floor" ar-modes="scene-viewer webxr quick-look" camera-controls ios-src="">
+    <!-- <button slot="ar-button" id="ar-button">View in your space</button>
+    <div id="error" class="hide">AR is not supported on this device</div> -->
+</model-viewer>

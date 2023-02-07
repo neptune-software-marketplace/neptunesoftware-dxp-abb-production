@@ -1,0 +1,8 @@
+navigateToDetail();
+
+ if (sap.n) {
+      oLayoutMain.to(localViewID+'--oPageDocumentation');
+  } else {
+      oLayoutMain.to('oPageDocumentation');
+}
+

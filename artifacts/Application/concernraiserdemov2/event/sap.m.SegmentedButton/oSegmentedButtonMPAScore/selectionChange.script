@@ -1,0 +1,9 @@
+if (oSegmentedButtonMPAScore.getSelectedKey() === "100s") {
+    oSliderCurrentFPV.setValue(1);
+    oSliderCurrentFPV.setEnabled(false);
+    oLabelCurrentFPV.setText("Current FPV - 1")
+} else {
+    oSliderCurrentFPV.setEnabled(true);
+}
+
+calculateRPNpriority();

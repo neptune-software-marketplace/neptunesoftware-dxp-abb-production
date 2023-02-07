@@ -1,0 +1,7 @@
+searchForSimilarConcerns();
+var selectedKey = oSelectCategory.getSelectedKey()
+filterDefectList(selectedKey);
+
+oSelectDefect.setSelectedKey("")
+
+showDamCodes();

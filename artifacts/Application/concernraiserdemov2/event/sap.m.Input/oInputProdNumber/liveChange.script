@@ -1,0 +1,55 @@
+// var data = ModelData.FindFirst(oModelArrayProductionNumbers, "Production_number", this.getValue());
+
+// if (data != false) {
+//     console.log(data);
+//     oSelectModel.setSelectedKey(data.Model)
+//     oSelectVarient.setSelectedKey(data.Varient)
+// }
+
+if (this.getValue() === "GEAR50060"){
+    sap.m.MessageToast.show("Part Number detected...");
+    oSelectModel.setBusy(true);
+    oSelectVarient.setBusy(true);
+    setTimeout(function() {
+
+        sap.m.MessageToast.show("Retrieved data...");
+        oSelectModel.setBusy(false);
+
+        oSelectVarient.setEnabled(true);
+        
+        filterVarientList("Gear");
+        oSelectModel.setSelectedKey("Gear");
+        oSelectVarient.setSelectedKey("G10");
+
+
+        setTimeout(function() {
+            oSelectVarient.setBusy(false);
+            
+            show3DOptions();
+
+            setTimeout(function() {
+                //oTextProdNumber.setText("1018332")
+                oTextDriveSide.setText("12")
+                oTextColour.setText("Screw fit")
+                oTextLocal.setText("Warehouse 2")
+
+                //oLabelProdNumber.setVisible(true);
+                //oTextProdNumber.setVisible(true);
+                oLabelDriveSide.setVisible(true);
+                oTextDriveSide.setVisible(true);
+                oLabelColour.setVisible(true);
+                oTextColour.setVisible(true);
+                oLabelLocal.setVisible(true);
+                oTextLocal.setVisible(true);
+
+                oInputProdNumber.setValue("GEAR50060")
+                
+            }, 500);
+        }, 500);
+
+    }, 2000);
+}
+
+
+
+show3DOptions();

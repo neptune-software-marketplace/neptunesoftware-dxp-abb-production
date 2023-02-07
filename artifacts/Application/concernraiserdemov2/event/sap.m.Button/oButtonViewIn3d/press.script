@@ -1,0 +1,57 @@
+// var model = "https://dxpdemo.neptune-software.cloud/media/root/ConcernRaiser/uploads_files_3315791_gears.glb";
+//  navigateToDetail();
+
+//  if (sap.n) {
+//      oLayoutMain.to(localViewID+'--oPage3DModel');
+//  } else {
+//      oLayoutMain.to('oPage3DModel');
+//  }
+
+
+
+
+//  // var viewer = document.getElementById("modelContainer");
+
+//   if (viewer) {
+//       viewer.src = model;
+//         if (!initViewer) {
+//         var initViewer = true;
+//           viewer.addEventListener('load', () => {
+//              // let animations = [{ name: "" }];
+//               // const names = viewer.availableAnimations;
+//               // $.each(names, function (i, name) {
+//               //     animations.push({ name: name });
+//               // });
+//               // modelinAnimation.setData(animations);
+//               // modelinAnimation.refresh();
+//           });
+//       }
+//   }
+
+var model = "/media/root/ConcernRaiser/uploads_files_3315791_gears.glb"
+
+navigateToDetail();
+
+if (sap.n) {
+     oLayoutMain.to(localViewID+'--oPage3DModel');
+ } else {
+     oLayoutMain.to('oPage3DModel');
+}   
+
+var viewer = document.getElementById("modelContainer");
+
+if (viewer) {
+    viewer.src = model;
+    if (!initViewer) {
+        var initViewer = true;
+        viewer.addEventListener('load', () => {
+            // let animations = [{ name: "" }];
+            // const names = viewer.availableAnimations;
+            // $.each(names, function (i, name) {
+            //     animations.push({ name: name });
+            // });
+            // modelinAnimation.setData(animations);
+            // modelinAnimation.refresh();
+        });
+    }
+}

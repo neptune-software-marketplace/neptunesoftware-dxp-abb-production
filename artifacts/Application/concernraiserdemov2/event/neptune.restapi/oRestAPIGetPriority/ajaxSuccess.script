@@ -1,0 +1,7 @@
+var response = xhr.responseText;
+console.log(response);
+
+var RPNTableEntry = JSON.parse(response);
+console.log(RPNTableEntry.valueWeighted);
+
+returnRPNPriority(RPNTableEntry.valueWeighted)

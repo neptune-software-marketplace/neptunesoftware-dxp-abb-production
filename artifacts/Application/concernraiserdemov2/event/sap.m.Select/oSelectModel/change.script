@@ -1,0 +1,15 @@
+oInputProdNumber.setValue("");
+
+var selectedKey = oSelectModel.getSelectedKey()
+filterVarientList(selectedKey);
+
+if (oInputProdNumber === "GEAR50060"){
+    return;
+} else {
+    oLabelDriveSide.setVisible(false);
+    oTextDriveSide.setVisible(false);
+    oLabelColour.setVisible(false);
+    oTextColour.setVisible(false);
+    oLabelLocal.setVisible(false);
+    oTextLocal.setVisible(false);
+}

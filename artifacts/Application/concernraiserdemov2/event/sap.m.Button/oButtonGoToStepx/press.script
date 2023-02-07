@@ -1,0 +1,21 @@
+var step = oWizard.getProgress()
+console.log(step)
+
+if (step === 2) {
+    oWizard.nextStep()
+    oButtonGoToStepx.setVisible(false);
+    oButtonSubmit.setVisible(true);
+} else {
+    oWizard.nextStep()
+    //oButtonGoToStepx.setEnabled(false);
+}
+
+// oWizard.validateStep("oWizardStep3")
+
+// for (i = 0; i < 5; i++) {
+//     oWizard.nextStep()
+// }
+// for (i = 0; i < 5; i++) {
+//     oWizard.previousStep()
+// }
+

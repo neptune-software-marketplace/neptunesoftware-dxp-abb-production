@@ -1,0 +1,17 @@
+var oFirstStep = oWizard.getSteps()[0];
+oWizard.discardProgress(oFirstStep);
+// scroll to top
+oWizard.goToStep(oFirstStep);
+// invalidate first step
+oFirstStep.setValidated(false);
+
+clearEverything();
+
+if (sap.n) {
+     oLayoutMain.to(localViewID+'--oPage');
+} else {
+    oLayoutMain.to('oPage');
+}
+
+
+//sap.m.MessageToast.show("For this POC, please use F5 to reset! Thank you!");

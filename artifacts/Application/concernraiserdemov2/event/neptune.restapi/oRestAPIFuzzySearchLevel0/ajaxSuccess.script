@@ -1,0 +1,17 @@
+if (xhr.responseText === "") {
+    var amount = 0;
+    //oButtonSearchForSimilar.setEnabled(false)
+    oMessageStripSimilarConcerns.setType("None")
+    // oLabelSimilarConcernView.setVisible(false);
+    // oButtonViewSimilarConcerns.setVisible(false);
+} else {
+    var amount = xhr.responseText;
+    //oButtonSearchForSimilar.setEnabled(true)
+    oMessageStripSimilarConcerns.setType("Warning")
+    // oLabelSimilarConcernView.setVisible(true);
+    // oButtonViewSimilarConcerns.setVisible(true);
+}
+
+//oButtonSearchForSimilar.setVisible(true);
+oMessageStripSimilarConcerns.setVisible(true);
+oMessageStripSimilarConcerns.setText("There are: "+amount+" Similar concerns.")

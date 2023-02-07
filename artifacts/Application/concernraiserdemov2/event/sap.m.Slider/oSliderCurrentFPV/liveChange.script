@@ -1,0 +1,5 @@
+this.getValue() == 0 ? 
+    oLabelCurrentFPV.setText("Percentage Impact - 0%")
+    :
+    oLabelCurrentFPV.setText("Percentage Impact -  "+`${this.getValue()}`+"%")
+

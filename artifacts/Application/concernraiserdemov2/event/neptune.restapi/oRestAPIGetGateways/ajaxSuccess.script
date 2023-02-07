@@ -1,0 +1,15 @@
+var whenDetectedData = modeloComboBoxWhenDetected.getData();
+
+function compare( a, b ) {
+  if ( a.gatewayCode < b.gatewayCode ){
+    return -1;
+  }
+  if ( a.gatewayCode > b.gatewayCode ){
+    return 1;
+  }
+  return 0;
+}
+
+whenDetectedData.sort(compare);
+
+modeloComboBoxWhenDetected.setData(whenDetectedData);

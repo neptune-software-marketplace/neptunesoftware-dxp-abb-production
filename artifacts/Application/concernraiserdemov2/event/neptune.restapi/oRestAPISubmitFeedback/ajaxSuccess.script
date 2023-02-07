@@ -1,0 +1,2 @@
+oDialogFeedback.close();
+sap.m.MessageToast.show("Thank you!\nFeedback logged.");
