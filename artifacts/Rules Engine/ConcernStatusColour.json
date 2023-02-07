@@ -1,0 +1,57 @@
+{
+	"id": "dff2c62e-aaff-4f4a-9c95-0c7eb7adbf5e",
+	"createdAt": "2021-05-03T17:24:54.480Z",
+	"createdBy": "lloyd",
+	"interface": [
+		{
+			"id": "a3c3b65b-636c-4b93-ef36-8cd65a15a127",
+			"parent": "",
+			"name": "Priority",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "427846b3-24d8-4d69-ab91-f870dadab9ff",
+			"result": "Error",
+			"items": [
+				{
+					"id": "832c266b-4eda-4d20-ec74-880cb7f95b34",
+					"field": "a3c3b65b-636c-4b93-ef36-8cd65a15a127",
+					"operator": "equal",
+					"value": "1"
+				}
+			]
+		},
+		{
+			"id": "9ffbf6a9-1a85-45f7-ec23-d274376fc787",
+			"result": "Success",
+			"items": [
+				{
+					"id": "526bf43b-107f-4986-dd61-4341b6ee0bb1",
+					"field": "a3c3b65b-636c-4b93-ef36-8cd65a15a127",
+					"operator": "equal",
+					"value": "3"
+				}
+			]
+		},
+		{
+			"id": "d069d797-d2fa-455c-d9cd-acd06d5bcd2e",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "774b866c-fa3a-44a0-c044-bb784bc2f428",
+					"field": "a3c3b65b-636c-4b93-ef36-8cd65a15a127",
+					"operator": "equal",
+					"value": "5"
+				}
+			]
+		}
+	],
+	"name": "ConcernStatusColour",
+	"description": "",
+	"ver": "23.2.7.1237",
+	"package": "1fff24fe-b49c-ed11-994a-0022489f9953",
+	"roles": []
+}

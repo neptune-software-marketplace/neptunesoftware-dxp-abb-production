@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-production",
 	"description": "DXP Production Scenario",
-	"ver": "23.2.7.126",
+	"ver": "23.2.7.1233",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -179,7 +179,13 @@
 	],
 	"theme": [],
 	"pdf": [],
-	"rulesengine": [],
+	"rulesengine": [
+		{
+			"id": "dff2c62e-aaff-4f4a-9c95-0c7eb7adbf5e",
+			"name": "ConcernStatusColour",
+			"description": ""
+		}
+	],
 	"reports": [
 		{
 			"id": "ee53bdbe-9140-439f-872c-e38fc3e688cd",
