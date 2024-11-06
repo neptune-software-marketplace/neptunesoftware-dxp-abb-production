@@ -1652,7 +1652,7 @@
 					"fieldName": "MockSAPResponse(get_matchcodes)",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/MockSAPResponse(get_matchcodes).script",
+					"script": "file://script/neptune.Script/MockSAPResponse(get_matchcodes).js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -1664,7 +1664,7 @@
 					"fieldName": "oJavascript",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/oJavascript.script",
+					"script": "file://script/neptune.Script/oJavascript.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -1693,7 +1693,7 @@
 							"attribute": "ajaxSuccess",
 							"grouping": "Events",
 							"value": "Anonymous Function",
-							"script": "file://event/neptune.restapi/oRestAPIGetConcernData/ajaxSuccess.script",
+							"script": "file://event/neptune.restapi/oRestAPIGetConcernData/ajaxSuccess.js",
 							"language": "javascript",
 							"translation": []
 						}
@@ -1934,6 +1934,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -1945,17 +1946,11 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
 	"apis": [
-		{
-			"id": "db9023f4-e6cc-42c9-bdab-c6fcd040801f",
-			"name": "API sap_mock_qn_table",
-			"ver": "21.4.27.853"
-		},
-		{
-			"id": "d8b95596-2ed7-4ac5-816e-9c4451a704b5",
-			"name": "QM_notification",
-			"ver": "21.4.24.1156"
-		},
 		{
 			"id": "8e60d6d0-32ac-eb11-85aa-000d3ab252b7",
 			"name": "API ccar_data_approved",
